@@ -1,18 +1,21 @@
 # Ollie Ebook Shelf
 
-這個 repo 現在是一本書櫃網站：
+目前主路徑：
 
-- `spider/`
-- `hulk/`
+- `/bookshelf/`：書櫃首頁
+- `/books/spider/`：蜘蛛英雄那本
+- `/books/hulk/`：浩克刷牙那本
 
-網站入口：
+英文命名：
 
-- `/` 是書櫃首頁
-- `/spider/` 是蜘蛛英雄那本
-- `/hulk/` 是浩克刷牙那本
+- `bookshelf` = 書櫃
+- `books` = 書本集合
 
 相容舊路徑：
 
-- `/ebook/` 會轉到 `/`
-- `/ebook/spider/` 會轉到 `/spider/`
-- `/ebook/hulk/` 會轉到 `/hulk/`
+- `/` 會轉到 `/bookshelf/`
+- `/spider/` 會轉到 `/books/spider/`
+- `/hulk/` 會轉到 `/books/hulk/`
+- `/ebook/` 會轉到 `/bookshelf/`
+- `/ebook/spider/` 會轉到 `/books/spider/`
+- `/ebook/hulk/` 會轉到 `/books/hulk/`
